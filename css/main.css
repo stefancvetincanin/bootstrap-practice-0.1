@@ -1,0 +1,97 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/*
+    PODSETNIK
+    flex: 1 1 auto;
+    h-100
+    bootstrap cards
+*/
+
+.carousel-item {
+    height: 600px;
+    /* align-items: center; */
+}
+
+.section2 > .row > div > div {
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 15px;
+    /* flex: 1 1 auto; */
+}
+
+.section2 > h2, .section3 h2 {
+    padding: 15px 0;
+}
+/*
+.section2 p {
+    flex: 1 1 auto;
+} */
+
+.section2 > .row > div h3 {
+    border-bottom: 2px solid darkgrey;
+    background-color: lightgray;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -15px;
+    padding: 8px;
+}
+
+.section2 > .row > div > div {
+    height: 100%;
+}
+
+.donje {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 15px;
+}
+
+.section3 h3 {
+    padding: 10px 0;
+    color: blue;
+    border-bottom: 2px solid gray;
+}
+
+.section3 > .row > div > div {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* .btn {
+    margin-bottom: 12px;
+    margin-left: 15px;
+} */
+
+.section4 .btn-my {
+    display: block;
+}
+
+.section4 > .row:last-of-type {
+    margin-top: 20px;
+}
+
+footer {
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 1400px) {
+
+}
+@media screen and (max-width: 1199px) {
+
+}
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 767px) {
+
+}
